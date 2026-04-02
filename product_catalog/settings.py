@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'products', # notifies django to scan for models,migrations & templates ; without it django ignore products folder
 ]
 
 MIDDLEWARE = [
