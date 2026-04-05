@@ -72,7 +72,7 @@ The repository includes a populated `db.sqlite3` file with 5 categories, 10 tags
 
 ## AI Attribution
 
-Per the Remarcable AI policy, I am documenting AI tool usage transparently.
+Documenting AI tool usage transparently.
 
 **What I wrote and understand fully:**
 - All models in `models.py` (Category, Tag, Product) including field choices and relationships
