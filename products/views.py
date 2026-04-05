@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.shortcuts import render
 
 from .models import Product, Category, Tag
@@ -15,7 +16,7 @@ def product_list(request):
 
     if search_query:
         #run if isn't empty, narrow the list ot find matching items case insenstitive
-        products = products.filter(description__icontains=search_query)
+        products = products.filter(Q(name__icontains=search_query) | Q(description__icontains=search_query))
     if category_id:
         #on products where id matches
         products = products.filter(category_id=category_id)
