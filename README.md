@@ -74,13 +74,6 @@ The repository includes a populated `db.sqlite3` file with 5 categories, 10 tags
 
 Documenting AI tool usage transparently.
 
-**What I wrote and understand fully:**
-- All models in `models.py` (Category, Tag, Product) including field choices and relationships
-- All view logic in `views.py` (queryset filtering, Q objects, GET parameter handling)
-- URL routing in both `product_catalog/urls.py` and `products/urls.py`
-- Admin registration in `admin.py`
-- Template structure (Django template tags `{% for %}`, `{% if %}`, `{{ variable }}`, form inputs, context variable usage)
-
 **Where AI assistance was used:**
 - CSS styling in `product_list.html` was scaffolded with AI assistance, since the assignment noted styling is not the focus. I reviewed all CSS, understand the layout (sidebar + grid), and can explain the template logic and how context data flows from view to template.
 - Code comments and README formatting were refined with AI assistance.
