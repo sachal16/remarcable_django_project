@@ -4,6 +4,7 @@ A Django project that models products, categories, and tags with search and filt
 
 ## Overview
 
+
 This project implements a simple product catalog themed around soccer gear. Users can:
 - Search products by name or description
 - Filter products by category (dropdown)
