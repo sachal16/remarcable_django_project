@@ -15,7 +15,7 @@ The database was populated through the Django admin interface with 5 categories,
 
 ## Tech Stack
 
-- Python 3.14
+-  Python 3.14
 - Django 6.0.3
 - SQLite (default Django database)
 - Django Templates (no front-end framework)
