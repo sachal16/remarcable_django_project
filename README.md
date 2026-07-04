@@ -1,4 +1,4 @@
-# Product Catalog - Django Take-Home Assignment
+# Product Catalog 
 
 A Django project that models products, categories, and tags with search and filter functionality. Built for the Remarcable Full Stack Developer Co-op take-home assignment.
 
